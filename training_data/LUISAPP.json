@@ -1,0 +1,811 @@
+[
+    {
+      "text": "jarvis, what's the time?",
+      "intent": "TIME",
+      "entities": []
+    },
+    {
+      "text": "is it cold today?",
+      "intent": "WEATHER",
+      "entities": []
+    },
+    {
+      "text": "when will ronak feel hot?",
+      "intent": "WEATHER",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "is shyam warm?",
+      "intent": "WEATHER",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "tell me the time",
+      "intent": "TIME",
+      "entities": []
+    },
+    {
+      "text": "time",
+      "intent": "TIME",
+      "entities": []
+    },
+    {
+      "text": "i'll be home at 5pm",
+      "intent": "TIME",
+      "entities": []
+    },
+    {
+      "text": "will nikhil feel warm?",
+      "intent": "WEATHER",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "when will ronak get cold?",
+      "intent": "WEATHER",
+      "entities": []
+    },
+    {
+      "text": "tell me about spyfall",
+      "intent": "MOVIE INFO",
+      "entities": []
+    },
+    {
+      "text": "is it hot today?",
+      "intent": "WEATHER",
+      "entities": []
+    },
+    {
+      "text": "the girl on the train",
+      "intent": "MOVIE INFO",
+      "entities": [
+        {
+          "entity": "movie",
+          "startPos": 0,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "give me the time",
+      "intent": "TIME",
+      "entities": []
+    },
+    {
+      "text": "tell me about the weather",
+      "intent": "WEATHER",
+      "entities": []
+    },
+    {
+      "text": "will shyam feel freezing tomorrow?",
+      "intent": "WEATHER",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "the show starts at 6pm",
+      "intent": "TIME",
+      "entities": []
+    },
+    {
+      "text": "is it going to snow?",
+      "intent": "WEATHER",
+      "entities": []
+    },
+    {
+      "text": "me before you",
+      "intent": "MOVIE INFO",
+      "entities": [
+        {
+          "entity": "movie",
+          "startPos": 0,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "is it going to rain?",
+      "intent": "WEATHER",
+      "entities": []
+    },
+    {
+      "text": "how hot is it?",
+      "intent": "WEATHER",
+      "entities": []
+    },
+    {
+      "text": "what's the weather like?",
+      "intent": "WEATHER",
+      "entities": []
+    },
+    {
+      "text": "tell me the time.",
+      "intent": "TIME",
+      "entities": []
+    },
+    {
+      "text": "when will nikhil feel cold?",
+      "intent": "WEATHER",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "i'll leave at 6pm",
+      "intent": "TIME",
+      "entities": []
+    },
+    {
+      "text": "now you see me 2",
+      "intent": "MOVIE INFO",
+      "entities": [
+        {
+          "entity": "movie",
+          "startPos": 0,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "how cold is it?",
+      "intent": "WEATHER",
+      "entities": []
+    },
+    {
+      "text": "what time is it",
+      "intent": "TIME",
+      "entities": []
+    },
+    {
+      "text": "is it going to rain",
+      "intent": "WEATHER",
+      "entities": []
+    },
+    {
+      "text": "send shyam a text",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "send ronak \"hello\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "send \"sup\" to ronak",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "message",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "send ronak a message",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "send krisha \"hello\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "when will sonali feel hot?",
+      "intent": "WEATHER",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "when will ragad feel hot?",
+      "intent": "WEATHER",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "when will jaka feel cold?",
+      "intent": "WEATHER",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "when will matt be hot?",
+      "intent": "WEATHER",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "send \"hello\" to joshua",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "message",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "send sonali \"quad\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "send shyam \"yo\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "send mitra \"hey\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "send mitra \"hello\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "send mumuksha \"hello there\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "send nikhil \"hey there\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "send meghna \"hi meggy\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "send matt \"hello\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "send graham jacobs \"hello\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "message",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "send sonali shanbag \"hey\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "message",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "tell ronak pai i say hi",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "tell shyam nuggehalli to go to the park",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "message",
+          "startPos": 4,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "tell matthew hsieh i need to train",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "send hitesh \"coming\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "send jack \"waiting\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "tell roger i said hi",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 2,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "tell james \"crying right now\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "send alex \"hello\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "send mark \"i'm omw\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "send jacob \"i'll be there in a minute\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "send miller \"what's cookin?\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "tell kailo to ride the horse",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "send ronak \"hrelolo\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "send markov \"um i duuno\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "send hackarov \"my name is sparrow\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "send steve \"don't lai, man\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "send steve don't lie, brooski",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 2,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "send jobba no bubba allowed",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 2,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "send manka be there in a minute",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 2,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "send makan \"woah that's cool\"",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 3,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "send jakal yeah sure anytime",
+      "intent": "send_text",
+      "entities": [
+        {
+          "entity": "friend",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "message",
+          "startPos": 2,
+          "endPos": 4
+        }
+      ]
+    }
+  ]

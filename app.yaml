@@ -1,0 +1,17 @@
+runtime: python27
+api_version: 1
+threadsafe: false
+
+handlers:
+- url: /nlp/.*
+  script: nlp.app
+
+libraries:
+- name: webapp2
+  version: latest
+- name: scikit-learn
+  version: latest
+- name: nltk
+  version: latest
+- name: subprocess
+  version: latest
