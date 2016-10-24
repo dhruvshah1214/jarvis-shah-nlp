@@ -1,0 +1,4 @@
+webapp2
+scikit-learn
+nltk
+subprocess
