@@ -2,3 +2,5 @@ webapp2
 scikit-learn
 nltk
 subprocess
+numpy
+scipy
